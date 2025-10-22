@@ -1,0 +1,24 @@
+{
+  "name": "jasper-framework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A project to learn how to write a frontend framework",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "serve:example": "npx serve ./examples/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparrowsl/jasper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache 2.0",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sparrowsl/jasper/issues"
+  },
+  "homepage": "https://github.com/sparrowsl/jasper#readme"
+}
